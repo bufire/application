@@ -23,6 +23,7 @@ public class MyAppController {
     }
     @GetMapping("single.html")
     public String single(){
+        System.out.println("打印测试");
         return "single";
     }
 }
